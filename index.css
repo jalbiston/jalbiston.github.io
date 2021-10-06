@@ -1,0 +1,80 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: aliceblue;
+}
+
+#header1{
+    background-color: black;
+    color:white;
+    height:30px
+}
+
+a {
+    color:white;
+    text-decoration: none;
+}
+
+#github{
+    height:30px;
+    border-radius: 80px;
+    float: right;
+}
+#linkedin{
+    height:30px;
+    border-radius:80px;
+    float: right;
+    margin-right: 10px;
+}
+.logos{
+    display: flex;
+    justify-content: right;
+}
+
+#h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#pic{
+    display: flex;
+    justify-content: center;
+}
+
+#db{
+    height:500px;
+    border-radius: 100%;
+}
+#projectheader{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+#project{
+display: flex;
+justify-content: center;
+}
+#hglanding{
+    margin-top: 10px;
+    height: 300px;
+    margin-right:10px; 
+}
+#hgimg{
+    margin-top: 10px;
+    height:300px;
+    
+}
+
+#hellYeah{
+    display: flex;
+    justify-content: center;
+}
+
+#hgimg:hover{
+    height:400px;
+    zoom: normal;
+
+}
+
+#hglanding:hover{
+    height:400px;
+    zoom:normal;
+}
