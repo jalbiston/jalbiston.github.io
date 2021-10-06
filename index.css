@@ -1,12 +1,26 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
 body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: aliceblue;
 }
 
+
+
 #header1{
     background-color: black;
     color:white;
     height:30px
+}
+
+.navButtons{
+    display: flex;
+    justify-content: space-evenly;
+
 }
 
 a {
@@ -17,13 +31,13 @@ a {
 #github{
     height:30px;
     border-radius: 80px;
-    float: right;
+    
 }
 #linkedin{
     height:30px;
     border-radius:80px;
-    float: right;
-    margin-right: 10px;
+    
+    
 }
 .logos{
     display: flex;
@@ -34,6 +48,12 @@ a {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+#h1s{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom:50px
+}
 #pic{
     display: flex;
     justify-content: center;
@@ -62,7 +82,14 @@ justify-content: center;
     height:300px;
     
 }
+#Ido{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 
+#skills{
+    margin-top: 100px;
+}
 #hellYeah{
     display: flex;
     justify-content: center;
@@ -77,4 +104,8 @@ justify-content: center;
 #hglanding:hover{
     height:400px;
     zoom:normal;
+}
+
+.othera{
+    color: black;
 }
