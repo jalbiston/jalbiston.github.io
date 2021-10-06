@@ -23,6 +23,10 @@ body{
 
 }
 
+a:hover{
+    color:blue
+}
+
 a {
     color:white;
     text-decoration: none;
