@@ -16,6 +16,8 @@ body{
     align-content: center;
 }
 
+
+
 #header1{
     background-color: black;
     color:white;
@@ -85,11 +87,12 @@ justify-content: center;
     margin-top: 10px;
     height: 300px;
     margin-right:10px; 
+    transition: .2s;
 }
 #hgimg{
     margin-top: 10px;
     height:300px;
-    
+    transition: .2s;
 }
 #Ido{
     margin-top: 30px;
@@ -111,14 +114,12 @@ justify-content: center;
 }
 
 #hgimg:hover{
-    height:400px;
-    zoom: normal;
+    transform: scale(1.5);
 
 }
 
 #hglanding:hover{
-    height:400px;
-    zoom:normal;
+    transform: scale(1.5);
 }
 
 .othera{
